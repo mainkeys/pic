@@ -1,9 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T13:37:46.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.2.0" etag="ie1L0OvF2_IFz2Od2962" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T13:50:50.947Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="fonIUFfA0gGyhrjxT8Km" version="24.2.0" type="github">
   <diagram name="第 1 页" id="9wbC9VrGCP2e-hevPF0Q">
-    <mxGraphModel>
+    <mxGraphModel dx="753" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sKDmw499enqQM6fa_ain-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="700" as="sourcePoint" />
+            <mxPoint x="160" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="700" as="sourcePoint" />
+            <mxPoint x="520" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-3" value="客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-4" value="服务端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-5" value="mainkeys.github.io" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="440" as="sourcePoint" />
+            <mxPoint x="520" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-10" value="公钥 / 私钥" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="420" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="460" as="sourcePoint" />
+            <mxPoint x="160" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-13" value="生成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="420" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-14" value="响应公钥，包含证书（机构，过期时间，来源）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="460" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-17" value="解包公钥" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="450" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-18" value="认证解析 &amp;amp; 生成随机key，使用&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;证书&lt;/span&gt;&lt;font style=&quot;text-wrap: nowrap;&quot;&gt;（公钥）&lt;/font&gt;对key进行加密" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="510" width="80" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sKDmw499enqQM6fa_ain-17" target="sKDmw499enqQM6fa_ain-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="510" as="sourcePoint" />
+            <mxPoint x="430" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-20" value="&lt;span style=&quot;color: rgb(255, 94, 94);&quot;&gt;证书&lt;/span&gt;&lt;font color=&quot;#ff5e5e&quot;&gt;（公钥）就像一个带锁的箱子&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="490" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="560" as="sourcePoint" />
+            <mxPoint x="520" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-22" value="公钥加密的随机码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="568" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-24" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;私钥解锁&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="540" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-25" value="获取到了key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="547.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="580" as="sourcePoint" />
+            <mxPoint x="590" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-27" value="返回加密请求" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="620" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="640" as="sourcePoint" />
+            <mxPoint x="160" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-29" value="使用key加密内容" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="625" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-30" value="使用客户端key加密后的文件内容" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="638" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sKDmw499enqQM6fa_ain-32" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;用key解密&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="618" width="80" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
