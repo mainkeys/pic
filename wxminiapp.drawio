@@ -1,9 +1,158 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T14:50:59.828Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.2.0" etag="2Ok-4rBchpGNNWlVGzGo" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T15:10:11.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="a4MfI0k35RGha51Si4-M" version="24.2.0" type="github">
   <diagram name="第 1 页" id="pzGOiPj6bELZ8Y4UNMaq">
-    <mxGraphModel>
+    <mxGraphModel dx="753" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cI9388ceLRpoJzb-oJa9-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="670" as="sourcePoint" />
+            <mxPoint x="120" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="670" as="sourcePoint" />
+            <mxPoint x="360" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="670" as="sourcePoint" />
+            <mxPoint x="600" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-5" value="小程序" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-7" value="开发者服务器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-8" value="微信接口服务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-18" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="230" as="sourcePoint" />
+            <mxPoint x="120" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-19" value="wx.login()获取code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cI9388ceLRpoJzb-oJa9-18">
+          <mxGeometry x="-0.219" y="-1" relative="1" as="geometry">
+            <mxPoint x="41" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="290" as="sourcePoint" />
+            <mxPoint x="360" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-21" value="wx.request()发送code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cI9388ceLRpoJzb-oJa9-20">
+          <mxGeometry x="-0.1437" y="-3" relative="1" as="geometry">
+            <mxPoint x="7" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="330" as="sourcePoint" />
+            <mxPoint x="600" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-23" value="登陆凭证校验接口&lt;div&gt;appid + appsecret + code&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cI9388ceLRpoJzb-oJa9-22">
+          <mxGeometry x="-0.3354" y="3" relative="1" as="geometry">
+            <mxPoint x="40" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="350" as="sourcePoint" />
+            <mxPoint x="360" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-25" value="session_key + openid等" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cI9388ceLRpoJzb-oJa9-24">
+          <mxGeometry x="0.0604" y="1" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-26" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="390" as="sourcePoint" />
+            <mxPoint x="360" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-27" value="自定义登录态与&lt;div&gt;openid, session_key关联&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cI9388ceLRpoJzb-oJa9-26">
+          <mxGeometry x="-0.1618" y="2" relative="1" as="geometry">
+            <mxPoint x="48" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="450" as="sourcePoint" />
+            <mxPoint x="120" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-29" value="返回自定义登录态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cI9388ceLRpoJzb-oJa9-28">
+          <mxGeometry x="0.1436" y="-1" relative="1" as="geometry">
+            <mxPoint x="17" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-30" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="480" as="sourcePoint" />
+            <mxPoint x="120" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-31" value="自定义登录态存入storage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cI9388ceLRpoJzb-oJa9-30">
+          <mxGeometry x="-0.1154" y="1" relative="1" as="geometry">
+            <mxPoint x="19" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="550" as="sourcePoint" />
+            <mxPoint x="360" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-34" value="wx.request()发起业务请求&lt;div&gt;携带 自定义登录态&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cI9388ceLRpoJzb-oJa9-32">
+          <mxGeometry x="-0.3769" y="3" relative="1" as="geometry">
+            <mxPoint x="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-36" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="580" as="sourcePoint" />
+            <mxPoint x="360" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-37" value="通过自定义登录态&lt;div&gt;查询openid和session_key&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cI9388ceLRpoJzb-oJa9-36">
+          <mxGeometry x="-0.2313" y="-1" relative="1" as="geometry">
+            <mxPoint x="31" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="650" as="sourcePoint" />
+            <mxPoint x="120" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cI9388ceLRpoJzb-oJa9-39" value="返回业务数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cI9388ceLRpoJzb-oJa9-38">
+          <mxGeometry x="0.4186" y="-5" relative="1" as="geometry">
+            <mxPoint x="30" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
